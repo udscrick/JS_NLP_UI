@@ -1,0 +1,8 @@
+<form [formGroup]="recorderForm" (ngSubmit)="startVoiceRecognition()">
+<div>
+    <button type="submit" >Start Recording</button>
+    <input formControlName="voiceoutput" readonly>
+    
+</div>
+
+</form>
